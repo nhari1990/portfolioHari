@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    color: greenyellow;
+    background-image: url('./img/hero_image.png');
+    height: 600px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.hero img {
+    height: 400px;
+}
+
+.blackBoxSection {
+    background-color: black;
+    height: 102px;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    margin: 20px 200px;
+    justify-content: center;
+    height: 500px;
+}
+.web img {
+    height: 10rem;
+    
+}
+.app img {
+    height: 10rem;
+    width: fit-conte;
+}
+.ux img {
+    height: 10rem;
+}
+.bottomSection {
+    display: flex;
+    margin: 0px 80px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.contact {
+    background-color: darkgreen;
+    margin: 1rem;
+    padding: 1em;
+    align-items: normal;
+}
+
+.about {
+    background-color: brown;
+    margin-right: 1rem;
+    padding: 1em;
+}
